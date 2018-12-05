@@ -17,10 +17,11 @@ class Line
 public:
 	Line(std::string _line, int line_number);
 	std::vector<words> get_words();
+	int get_linenum();
 private:
 	std::string m_line;
 	int m_linenumber;
-	std::vector<string> words;
+	std::vector<string> m_words;
 };
 
 #endif

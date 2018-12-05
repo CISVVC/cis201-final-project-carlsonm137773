@@ -13,14 +13,19 @@ Date of creation: 4/12/2018
 
 Line::Line(std::string _line, int line_number)
 {
-	
+	m_linenumber = line_number;
+	m_line = _line;
+// remove all non letter chars 
+// to lower
+// 	
 }
 
 std::vector<words> Line::get_words()
 {
-	std::vector<string> words;
+	return m_words;
+}
 
-
-
-	return words;
+int get_linenum()
+{
+	return m_linenumber;
 }

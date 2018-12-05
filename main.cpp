@@ -49,7 +49,7 @@ std::vector<Word> con(_file)
 	if(input.fail())
 	{
 		std::cerr << "File cannot be read" << std::endl;
-		wxit(1);
+		exit(1);
 	}
 	int count 0;
 	while(1)
@@ -61,6 +61,10 @@ std::vector<Word> con(_file)
 
 		if(input.eof())
 			break;	
-
+		std::vector<string> = _line.get_words();
+		for (int i = 0; i < _line; i++)
+		{
+			// check if words have been found if so add to the Word for that one if not words.push_back(Word(_line[i]), _line.get_linenum() )
+		}
 	}
 }
