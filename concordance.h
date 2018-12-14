@@ -1,6 +1,6 @@
 /*
 File: concordance.h
-Description:
+Description: header file for the Concordance class
 Author: Matthew Carlson
 Email: carlsonm137773@student.vvc.edu
 Date of creation: 10/12/2018

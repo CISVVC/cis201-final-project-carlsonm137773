@@ -1,6 +1,6 @@
 /*
 File: word.h
-Description:
+Description: header file for the Word class
 Author: Matthew Carlson
 Email: carlsonm137773@student.vvc.edu
 Date of cration: 4/12/2018
@@ -17,11 +17,11 @@ class Word
 {
 public:
 	Word();
-	Word(std::string _word, int _line);
-	void add_line(int _line);
-	int get_count();
-	void print();
-	std::string get_word();
+	Word(std::string _word, int _line); // constructor with peramaters
+	void add_line(int _line);	//adds a line numebr to the m_lines vector and m_count++
+	int get_count();	//accessor function
+	void print();	//outputs - m_word : m_count : m_lines[0],m_lines[1]...
+	std::string get_word(); //accessor function
 private:
 	std::string m_word;
 	int m_count;
